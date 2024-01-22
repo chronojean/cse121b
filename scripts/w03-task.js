@@ -60,13 +60,16 @@ document.querySelector('#getTotal').addEventListener('click', function() {
 
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
-
+let numbersArray = [1,2,3,4,5,6,7,8,9,10,11,12,13];
+document.getElementById("array").innerHTML = numbersArray
 /* Output Odds Only Array */
-
+document.getElementById("odds").innerHTML = numbersArray.filter(num=> num%2!=0)
 /* Output Evens Only Array */
-
+document.getElementById("evens").innerHTML = numbersArray.filter(num=> num%2==0)
 /* Output Sum of Org. Array */
-
+document.getElementById("sumOfArray").innerHTML = numbersArray.reduce((sum,number)=>sum+number,0)
 /* Output Multiplied by 2 Array */
-
+document.getElementById("multiplied").innerHTML = numbersArray.map(number=>number*2)
 /* Output Sum of Multiplied by 2 Array */
+document.getElementById("sumOfMultiplied").innerHTML = numbersArray.reduce((sum,number)=>sum+(number*2),0)
+
