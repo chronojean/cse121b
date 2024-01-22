@@ -48,7 +48,7 @@ document.querySelector('#divideNumbers').addEventListener('click', divideNumbers
 /* Decision Structure */
 document.querySelector('#getTotal').addEventListener('click', function() {
     let subtotal = Number(document.querySelector('#subtotal').value);
-    let membershipCheckbox = document.querySelector('#membershipCheckbox');
+    let membershipCheckbox = document.querySelector('#member');
     
     let discount = membershipCheckbox.checked ? 0.15 : 0;
     
