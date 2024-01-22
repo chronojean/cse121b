@@ -44,10 +44,18 @@ const divideNumbers = function() {
   document.querySelector('#quotient').value = divide(dividend, divisor);
 };
 document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);
-
-
 /* Decision Structure */
+document.querySelector('#getTotalDue').addEventListener('click', function() {
+    let subtotal = Number(document.querySelector('#subtotal').value);
+    let membershipCheckbox = document.querySelector('#membershipCheckbox');
+    
+    let discount = membershipCheckbox.checked ? 0.15 : 0;
+    
+    let totalDue = subtotal - (subtotal * discount);
 
+    document.querySelector('#total').textContent = `Total Due: $${totalDue.toFixed(2)}`;
+  });
+  
 
 /* ARRAY METHODS - Functional Programming */
 /* Output Source Array */
