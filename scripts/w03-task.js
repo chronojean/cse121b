@@ -54,7 +54,7 @@ document.querySelector('#getTotal').addEventListener('click', function() {
     
     let totalDue = subtotal - (subtotal * discount);
 
-    document.querySelector('#total').textContent = `Total Due: $${totalDue.toFixed(2)}`;
+    document.querySelector('#total').textContent = `$ ${totalDue.toFixed(2)}`;
   });
   
 
