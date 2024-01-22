@@ -5,8 +5,6 @@
 function add(number1, number2) {
     return number1+number2;
 }
-
-/* Function Expression - Subtract Numbers */
 function addNumbers() {
     let addNumber1 = Number(document.querySelector('#add1').value);
     let addNumber2 = Number(document.querySelector('#add2').value);
@@ -15,9 +13,27 @@ function addNumbers() {
   }
 document.querySelector('#addNumbers').addEventListener('click', addNumbers);
 
+/* Function Expression - Subtract Numbers */
+const subtract = function(number1, number2) {
+    return number1 - number2;
+  };
+const subtractNumbers = function() {
+    let subtractNumber1 = Number(document.querySelector('#subtract1').value);
+    let subtractNumber2 = Number(document.querySelector('#subtract2').value);
+  
+    document.querySelector('#difference').value = subtract(subtractNumber1, subtractNumber2);
+  };
+  document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
+
 /* Arrow Function - Multiply Numbers */
+const multiply = (number1, number2) => number1 * number2;
+const multiplyNumbers = () => {
+  let factor1 = Number(document.querySelector('#factor1').value);
+  let factor2 = Number(document.querySelector('#factor2').value);
 
-
+  document.querySelector('#product').value = multiply(factor1, factor2);
+};
+document.querySelector('#multiplyNumbers').addEventListener('click', multiplyNumbers);
 /* Open Function Use - Divide Numbers */
 
 
