@@ -44,8 +44,9 @@ const divideNumbers = function() {
   document.querySelector('#quotient').value = divide(dividend, divisor);
 };
 document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);
+
 /* Decision Structure */
-document.querySelector('#getTotalDue').addEventListener('click', function() {
+document.querySelector('#getTotal').addEventListener('click', function() {
     let subtotal = Number(document.querySelector('#subtotal').value);
     let membershipCheckbox = document.querySelector('#membershipCheckbox');
     
