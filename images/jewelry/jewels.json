@@ -1,0 +1,72 @@
+[
+  {
+    "Name": "Emerald in the Light",
+    "Type": "Ring",
+    "Pricing": "$1000",
+    "img_alt": "Ring in a stump seat.jpg",
+    "img_src": "https://raw.githubusercontent.com/chronojean/cse121b/main/images/jewelry/Ring%20in%20a%20stump%20seat.jpg"
+  },
+  {
+    "Name": "Green Tears",
+    "Type": "Earrings",
+    "Pricing": "$800",
+    "img_alt": "Earrings in box over a tree stump seat.jpg",
+    "img_src": "https://raw.githubusercontent.com/chronojean/cse121b/main/images/jewelry/earrings%20in%20box%20over%20a%20tree%20stump%20seat.jpg"
+  },
+  {
+    "Name": "Emerald Pendant",
+    "Type": "Necklace",
+    "Pricing": "$1500",
+    "img_alt": "Necklace in its box.jpg",
+    "img_src": "https://raw.githubusercontent.com/chronojean/cse121b/main/images/jewelry/necklace%20in%20its%20box.jpg"
+  },
+  {
+    "Name": "Enchanted Emerald",
+    "Type": "Ring",
+    "Pricing": "$1200",
+    "img_alt": "Ring 2 over a tree stump seat.jpg",
+    "img_src": "https://raw.githubusercontent.com/chronojean/cse121b/main/images/jewelry/ring%202%20over%20a%20tree%20stump%20seat.jpg"
+  },
+  {
+    "Name": "Radiant Emerald",
+    "Type": "Ring",
+    "Pricing": "$1100",
+    "img_alt": "Ring 3 over a tree stump seat.jpg",
+    "img_src": "https://raw.githubusercontent.com/chronojean/cse121b/main/images/jewelry/ring%203%20over%20a%20tree%20stump%20seat.jpg"
+  },
+  {
+    "Name": "Elegant Emerald",
+    "Type": "Ring",
+    "Pricing": "$900",
+    "img_alt": "Ring 4 over a tree stump seat.jpg",
+    "img_src": "https://raw.githubusercontent.com/chronojean/cse121b/main/images/jewelry/ring%204%20over%20a%20tree%20stump%20seat.jpg"
+  },
+  {
+    "Name": "Radiant Emerald",
+    "Type": "Ring",
+    "Pricing": "$1300",
+    "img_alt": "Ring above a crystal gem.jpg",
+    "img_src": "https://raw.githubusercontent.com/chronojean/cse121b/main/images/jewelry/ring%20above%20a%20crystal%20gem.jpg"
+  },
+  {
+    "Name": "Heart of Emerald",
+    "Type": "Ring",
+    "Pricing": "$1400",
+    "img_alt": "Ring in its heart box.jpg",
+    "img_src": "https://raw.githubusercontent.com/chronojean/cse121b/main/images/jewelry/ring%20in%20its%20heart%20box.jpg"
+  },
+  {
+    "Name": "Floral Emerald",
+    "Type": "Ring",
+    "Pricing": "$950",
+    "img_alt": "Ring inside a flower.jpg",
+    "img_src": "https://raw.githubusercontent.com/chronojean/cse121b/main/images/jewelry/ring%20inside%20a%20flower.jpg"
+  },
+  {
+    "Name": "Emerald at Rest",
+    "Type": "Ring",
+    "Pricing": "$1000",
+    "img_alt": "Ring over a tree stump seat.jpg",
+    "img_src": "https://raw.githubusercontent.com/chronojean/cse121b/main/images/jewelry/ring%20over%20a%20tree%20stump%20seat.jpg"
+  }
+]
