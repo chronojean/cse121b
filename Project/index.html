@@ -3,7 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project</title>
+    <title>Jewelry Data Fetch</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Jewelry Data</h1>
+    <div class="gallery" id="gallery"></div>
+
+    <div id="myModal" class="modal" hidden>
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <div class="selected_product" id="selected_product"></div>
+      </div>
+    </div>
+
+    <script src="scripts/fetchJewelryData.js" defer></script>
+  </body>
 </html>
