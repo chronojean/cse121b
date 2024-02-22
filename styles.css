@@ -1,0 +1,71 @@
+:root {
+  --primary-100: #ffc300;
+  --primary-200: #dda600;
+  --primary-300: #916600;
+  --accent-100: #ff5733;
+  --accent-200: #fff3bf;
+  --text-100: #333333;
+  --text-200: #5c5c5c;
+  --bg-100: #f7f7f7;
+  --bg-200: #ededed;
+  --bg-300: #c4c4c4;
+}
+
+/* Estilos para inputs */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  background-color: var(--bg-200);
+  border: 1px solid var(--bg-300);
+  color: var(--text-100);
+  padding: 8px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Estilos para hover en inputs */
+input[type="text"]:hover,
+input[type="email"]:hover,
+input[type="password"]:hover {
+  background-color: var(--bg-300);
+}
+
+/* Ejemplo de uso de las variables */
+body {
+  background-color: var(--bg-100);
+  color: var(--text-100);
+}
+
+.button {
+  background-color: var(--primary-200);
+  color: var(--text-100);
+  border: 2px solid var(--primary-300);
+  border-radius: 8px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+}
+
+.card {
+  padding: 20px;
+  background-color: var(--bg-200);
+  color: var(--text-100);
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: var(--bg-100);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
